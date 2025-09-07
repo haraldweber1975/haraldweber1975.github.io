@@ -3,7 +3,7 @@ title: Having fun with AI
 date: 2025-09-07 15:40:00 +0200 #CET Summer Time
 description: Using Gemini to build my private Website based on Chirpy
 categories: [Story]
-tags: [AI]     # TAG names should always be lowercase
+tags: [ai]     # TAG names should always be lowercase
 published: false
 ---
 
