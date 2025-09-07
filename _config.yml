@@ -16,7 +16,7 @@ timezone: Europe/Berlin
 
 title: haraldweber.net # the main title
 
-tagline: just another personal website # it will display as the subtitle
+tagline: "My personal website" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   harald weber illertissen deutschland.
