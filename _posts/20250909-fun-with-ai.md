@@ -24,13 +24,17 @@ Look no further ;)
 [Chirpy-Starter](https://github.com/cotes2020/chirpy-starter) does a great job in bootstrapping the whole system into your own github repository.  
 I recommend to set up a new repository for this!
 
-Process to have your own Chirpy-based site:
+# Creating a base Chirpy site
+
+It´s a pretty straightforward process if you follow these steps
 
 * Login to Github
-* Open the Chripy-Start page
-  * Enter the repository name
+* Open the [Chripy-Starter](https://github.com/cotes2020/chirpy-starter) page
+  * Enter your repository name (ending with github.io)
   * Optionally add your own domain to github pages
 * Modify the _config.yml file
+* Create and use a favicon
+* Set your own Avatar
 
 If you´re doing the whole editing directly in GitHub Pages, you should be aware that there´s a delay of approx 10 Minutes from changing a file to "seeing it live in the web".  
 The build process on GitHub Pages is pretty quick, but that does not mean that your changes are "live" already.  
