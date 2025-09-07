@@ -6,8 +6,9 @@ categories: [Story]
 tags: [info]     # TAG names should always be lowercase
 ---
 
-# Hallo Welt!
+# Hello World... once again!
 
-Mal wieder ein "Hallo Welt" Artikel :)
+Another hello world article, as I recently started over with my blog.
+I lost a couple of outdated articles, but I don´t care too much about it :)
 
 
