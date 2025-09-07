@@ -67,6 +67,9 @@ The most convenient way is to use **winget** on a terminal.
 `winget install Git.Git`  
 will do the trick.
 
+As we´re just talking about software: I strongly recommend to install Visual Studio code, as it streamlines the whole git thing.
+`winget install Microsoft.VisualStudioCode`
+
 You need to tell git who you are.
 ```
 git config --global user.email "spam@haraldweber.net"
