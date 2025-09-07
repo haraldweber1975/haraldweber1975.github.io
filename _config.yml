@@ -11,6 +11,7 @@ lang: en
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Europe/Berlin
 
+
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
@@ -28,8 +29,6 @@ url: "https://haraldweber.net"
 github:
   username: haraldweber1975 # change to your GitHub username
 
-#twitter:
-#  username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -43,9 +42,6 @@ social:
     - https://github.com/haraldweber1975 # change to your GitHub homepage
     - https://steamcommunity.com/id/haraldweber
     - https://www.linkedin.com/in/harald-weber-2ba872125
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -101,6 +97,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
+
 avatar: /assets/img/harry.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
