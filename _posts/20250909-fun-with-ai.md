@@ -20,7 +20,6 @@ But starting like "Show me free options to host a simple website" should lead yo
 Asking for a nice, dark themed Github Pages template, Chirpy is the first option presented by Gemini.
 Look no further ;)
 
-# Where to start
 [Chirpy-Starter](https://github.com/cotes2020/chirpy-starter) does a great job in bootstrapping the whole system into your own github repository.  
 I recommend to set up a new repository for this!
 
@@ -31,6 +30,7 @@ It´s a pretty straightforward process if you follow these steps
 * Login to Github
 * Open the [Chripy-Starter](https://github.com/cotes2020/chirpy-starter) page
   * Enter your repository name (ending with github.io)
+  * Tell gibhub Pages to use this repository as "Website generator"
   * Optionally add your own domain to github pages
 * Modify the _config.yml file
 * Create and use a favicon
