@@ -8,10 +8,17 @@ published: false
 ---
 
 # Tldr;
+Here´s some know how I gathered today to manage my website.
+
+This is how I basically do it:
+
+* Use git and vs-code to manage files locally
+* whenever I Change something for my website, vs-code updates the "github pages" website via git
+* Updates from "Upstream" can be merged locally and after checking the changes -> committed and pushed to **github pages**
 
 # Gather some knowledge?
 I will skip this part, as I already knew that...
-* Github Paes offers a free of charge possibility to host your own website
+* Github Pags offers a free of charge possibility to host your own website
 * you need to be familiar with jekyll and know what gibhub pages supports
 
 But starting like "Show me free options to host a simple website" should lead you to Github and specifically to Github Pages.
