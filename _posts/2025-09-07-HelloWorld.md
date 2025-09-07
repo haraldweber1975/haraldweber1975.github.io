@@ -12,7 +12,7 @@ I lost a couple of outdated articles, but I don´t care about it.
 Updating the several years old theme, I run into issues and decided to try out something new.
 
 After asking Google Gemini (which is to date still the best option to use AI on a free plan)  
-I tried out [https://github.com/cotes2020/chirpy-starter](Chirpy).
+I tried out [Chirpy](https://github.com/cotes2020/chirpy-starter).
 
 By the way - the last re-launch of my private webpage was without any AI help.  
 This really makes a **huge** difference in research and troubleshooting.
