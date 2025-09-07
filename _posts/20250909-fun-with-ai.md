@@ -10,8 +10,8 @@ published: false
 # Tldr;
 
 # Gather some knowledge?
-I will skip this part, as I already knew that
-a) Github Paes offers a free of charge possibility to host your own website
+I will skip this part, as I already knew that  
+a) Github Paes offers a free of charge possibility to host your own website  
 b) you need to be familiar with jekyll and know what gibhub pages supports
 
 But starting like "Show me free options to host a simple website" should lead you to Github and specifically to Github Pages.
