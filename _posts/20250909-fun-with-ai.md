@@ -111,7 +111,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 So next you need to manually check / verify / modify all mentioned .md files!
 
-Manually edit `_config.yml`  
+Manually edit `_config.yml` 
 You can see what changed from the `<<<<<<< HEAD, =======` and `>>>>>>> upstream/main` text
 
 ### upload the updates files to your github repository
