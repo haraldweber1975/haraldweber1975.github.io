@@ -47,4 +47,77 @@ Be patient! :)
 # Create a "Hello world! article"
 
 # Updating the template??
-This is something I didn´t check ´till now.
+This is where Gemini shines (sort of).
+If you ask Gemini how to update to upstream, it suggests to install not only git, but a whole development environment with jekyll and ruby.  
+If you´re like me and do it with a minimal setup (editing everything with the github webpage), you don´t need it.
+
+## Overview of the process
+* Install Git for Windows
+* download (pull) your files from github to your local workstation
+* add the "upstream" repository, where all the development of the theme takes place
+* merge the upstream with your local files
+  * This is where the real work happens as you need to manually decide if you want to keep your own settings, or the default settings from "upstream".
+* upload (push) your updated local files
+
+## Detailled instructions
+
+### Install Git for Windows
+The most convenient way is to use **winget** on a terminal.  
+`winget install Git.Git`  
+will do the trick.
+
+You need to tell git who you are.
+```
+git config --global user.email "spam@haraldweber.net"
+git config --global user.name "haraldweber1975"
+```
+
+### Download (clone) your files from github
+
+`git clone https://github.com/haraldweber1975/haraldweber1975.github.io`
+
+Change into the directory of your repository
+`cd haraldweber1975.github.io`
+
+### Add and check upstream repository
+
+`git remote add upstream https://github.com/cotes2020/chirpy-starter.git`  
+`git remote -v`
+
+You should now see 2 repositories - your own and the upstream.
+
+### Merge with upstream
+
+Now get the latest updates from upstream  
+`git fetch upstream`  
+
+and merge them with your local configuration  
+`git merge upstream/main --squash --allow-unrelated-histories`
+
+This is what I got in return: Some conflicting files, meaning I changed them and of course they now differ from upstream.
+
+```
+Auto-merging _config.yml
+CONFLICT (add/add): Merge conflict in _config.yml
+Auto-merging _data/contact.yml
+CONFLICT (add/add): Merge conflict in _data/contact.yml
+Auto-merging _data/share.yml
+CONFLICT (add/add): Merge conflict in _data/share.yml
+Auto-merging _tabs/about.md
+CONFLICT (add/add): Merge conflict in _tabs/about.md
+Squash commit -- not updating HEAD
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+So next you need to manually check / verify / modify all mentioned .md files!
+
+Manually edit `_config.yml`  
+You can see what changed from the `<<<<<<< HEAD, =======` and `>>>>>>> upstream/main` text
+
+### upload the updates files to your github repository
+
+```
+git add .
+git commit -m "feat: merge latest updates from Chirpy upstream"
+git push
+```
