@@ -21,8 +21,10 @@ Asking for a nice, dark themed Github Pages template, Chirpy is the first option
 Look no further ;)
 
 # Where to start
-Chirpy does a great job in bootstrapping the whole system to your own github repository.  
-This is the process:
+[Chirpy-Starter](https://github.com/cotes2020/chirpy-starter) does a great job in bootstrapping the whole system into your own github repository.  
+I recommend to set up a new repository for this!
+
+Process to have your own Chirpy-based site:
 
 * Login to Github
 * Open the Chripy-Start page
