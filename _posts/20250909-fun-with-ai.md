@@ -41,6 +41,7 @@ The build process on GitHub Pages is pretty quick, but that does not mean that y
 Be patient! :)
 
 # Create a favicon
+This is described on the [Chirpy Website](https://chirpy.cotes.page/posts/customize-the-favicon/)
 
 # set your own avatar
 
