@@ -21,3 +21,17 @@ Might be a good follow-up post: How AI changed my "learning by doing" approach :
 
 See you soon!  
 Harald
+
+<p>Your public IP address is: <span id="public-ip">Loading...</span></p>
+
+<script>
+  fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('public-ip').textContent = data.ip;
+    })
+    .catch(error => {
+      console.error('Error fetching IP:', error);
+      document.getElementById('public-ip').textContent = 'Unable to fetch IP';
+    });
+</script>
